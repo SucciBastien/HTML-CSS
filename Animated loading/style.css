@@ -1,0 +1,25 @@
+.cercle{
+    fill: none;
+    stroke-width: 6px;
+    stroke-dasharray: 150, 25;
+    animation: animate-dash 3s infinite;
+    animation-direction: alternate-reverse;
+}
+.cercle1{
+    stroke: aqua;
+}
+.cercle2{
+    stroke: rgb(0, 255, 115);
+}
+@keyframes animate-dash{
+from {stroke-dasharray: 150, 25;}
+to {stroke-dasharray: 25,25;}
+}
+body{
+    display: inline-flex;
+    background-image: linear-gradient(to bottom, blue, rgb(0, 102, 255));
+}
+.svg1{
+    display: flex;
+    position: absolute;
+}
