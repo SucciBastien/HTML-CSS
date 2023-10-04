@@ -1,25 +1,49 @@
-.cercle{
+body{
+    background: linear-gradient(0deg, rgba(108,0,186,1) 18%, rgba(57,9,121,1) 99%);
+    background-repeat: no-repeat;
+    background-color: aqua;
+}
+circle{
     fill: none;
     stroke-width: 6px;
     stroke-dasharray: 150, 25;
-    animation: animate-dash 3s infinite;
+    /* stroke-linecap: round; */
+    animation: rotate 3s infinite;
     animation-direction: alternate-reverse;
+    stroke: blue;
 }
-.cercle1{
-    stroke: aqua;
+/* .cercle1{
+    stroke: rgba(0, 195, 255, 0.795);
 }
 .cercle2{
-    stroke: rgb(0, 255, 115);
-}
-@keyframes animate-dash{
+    stroke: rgb(68, 0, 255, 0.80);
+} */
+@keyframes rotate{
 from {stroke-dasharray: 150, 25;}
 to {stroke-dasharray: 25,25;}
 }
-body{
-    display: inline-flex;
-    background-image: linear-gradient(to bottom, blue, rgb(0, 102, 255));
+
+/* .svg1{
+    display: block;
+    margin: auto;
+} */
+
+
+/* body{
+    background: linear-gradient(0deg, rgba(108,0,186,1) 18%, rgba(57,9,121,1) 99%);
+    background-repeat: no-repeat;
+    background-color: aqua;
 }
-.svg1{
-    display: flex;
-    position: absolute;
-}
+  circle{
+      fill: none;
+      stroke-width: 6px;
+      stroke-dasharray: 150, 25;
+      animation: rotate 3s infinite;
+      animation-direction: alternate-reverse;
+      stroke: red;
+  }
+  @keyframes rotate {
+    from {stroke-dasharray: 150,25;}
+    to {stroke-dasharray: 25,25;}
+  
+  } */
