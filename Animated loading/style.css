@@ -1,7 +1,16 @@
+<<<<<<< HEAD
+=======
+body{
+    background: linear-gradient(0deg, rgba(108,0,186,1) 18%, rgba(57,9,121,1) 99%);
+    background-repeat: no-repeat;
+    background-color: aqua;
+}
+>>>>>>> 09f48294b8eb613a16c9cd405d5ec920d6904276
 circle{
     fill: none;
     stroke-width: 6px;
     stroke-dasharray: 150, 25;
+<<<<<<< HEAD
     stroke-linecap: round;
     animation: animate-dash 3s infinite ease-in-out alternate;
 }
@@ -31,4 +40,45 @@ body{
 }
 .svg1{
     filter: drop-shadow(100px 0 rgb(255, 196, 0));
+=======
+    /* stroke-linecap: round; */
+    animation: rotate 3s infinite;
+    animation-direction: alternate-reverse;
+    stroke: blue;
 }
+/* .cercle1{
+    stroke: rgba(0, 195, 255, 0.795);
+}
+.cercle2{
+    stroke: rgb(68, 0, 255, 0.80);
+} */
+@keyframes rotate{
+from {stroke-dasharray: 150, 25;}
+to {stroke-dasharray: 25,25;}
+}
+
+/* .svg1{
+    display: block;
+    margin: auto;
+} */
+
+
+/* body{
+    background: linear-gradient(0deg, rgba(108,0,186,1) 18%, rgba(57,9,121,1) 99%);
+    background-repeat: no-repeat;
+    background-color: aqua;
+>>>>>>> 09f48294b8eb613a16c9cd405d5ec920d6904276
+}
+  circle{
+      fill: none;
+      stroke-width: 6px;
+      stroke-dasharray: 150, 25;
+      animation: rotate 3s infinite;
+      animation-direction: alternate-reverse;
+      stroke: red;
+  }
+  @keyframes rotate {
+    from {stroke-dasharray: 150,25;}
+    to {stroke-dasharray: 25,25;}
+  
+  } */
