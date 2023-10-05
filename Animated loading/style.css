@@ -1,25 +1,34 @@
-.cercle{
+circle{
     fill: none;
     stroke-width: 6px;
     stroke-dasharray: 150, 25;
-    animation: animate-dash 3s infinite;
-    animation-direction: alternate-reverse;
+    stroke-linecap: round;
+    animation: animate-dash 3s infinite ease-in-out alternate;
 }
 .cercle1{
-    stroke: aqua;
+    stroke: rgb(0, 195, 255);
 }
 .cercle2{
-    stroke: rgb(0, 255, 115);
+    stroke: rgb(255, 196, 0);
 }
 @keyframes animate-dash{
-from {stroke-dasharray: 150, 25;}
-to {stroke-dasharray: 25,25;}
+from {
+    stroke-dasharray: 150, 60;
+    stroke-dashoffset: 80;
+}
+to {
+    stroke-dasharray: 25,20;
+    stroke-dashoffset: -600;
+}
 }
 body{
-    display: inline-flex;
-    background-image: linear-gradient(to bottom, blue, rgb(0, 102, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-image: linear-gradient(rgb(92, 0, 92) 18%, rgb(185, 0, 185) 99%);
+    height: 100vh;
 }
 .svg1{
-    display: flex;
-    position: absolute;
+    filter: drop-shadow(100px 0 rgb(255, 196, 0));
 }

@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    background-color: sienna;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all{
+    position: relative;
+    width: 331.65px;
+    height: 500px;
+    overflow: hidden;
+}
+img{
+    display: block;
+    height: 500px;
+    display: inline-flex;
+}
+.all:hover .overlay{
+    height: 100%;
+    opacity: 60%;
+    font-size: 18px;
+}
+.overlay{
+    bottom: 0%;
+    left: 0%;
+    height: 0%;
+    width: 100%;
+    background-color: black;
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0px;
+    transition: 0.5s ease ;
+}

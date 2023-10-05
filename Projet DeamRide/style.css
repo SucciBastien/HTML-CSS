@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    align-items: center;
+    background-color:#e97000;
+    height: 10rem ;
+}
+.logo{
+
+}
+.banniere{
+    display: flex;
+    overflow: hidden;
+    border-radius: 60px;
+    height: 100%;
+    width: 30rem;
+}
+.imgbanniere{
+    top: 15%;
+    border-radius: 60px;
+    width: 100%;
+}
