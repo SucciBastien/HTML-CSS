@@ -1,21 +1,119 @@
+body{
+    margin: 0px;
+}
 header{
     display: flex;
     align-items: center;
     background-color:#e97000;
     height: 10rem ;
+    overflow: hidden;
 }
 .logo{
-
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    margin-left: 5%;
+    height: 100px;
+}
+.logo img{
+    height: 80px;
 }
 .banniere{
     display: flex;
-    overflow: hidden;
-    border-radius: 60px;
+    position: relative;
+    opacity: 50%;
+    border-radius: 100px;
     height: 100%;
     width: 30rem;
+    margin: auto;
 }
 .imgbanniere{
     top: 15%;
     border-radius: 60px;
     width: 100%;
+}
+.burger{
+    right: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    cursor: pointer;
+}
+.burger input{
+    display: none;
+}
+.burger:hover{
+    transform: scale(110%);
+}
+.burgerbarre{
+    border-radius: 5px;
+    width: 60px;
+    height: 10px;
+    background-color: black;
+}
+.menuburger{
+    background-color: #e97000;
+    display: flex;
+    width: 0%;
+    height: 100vh;
+    right: 0%;
+    position: absolute;
+    transition: 2s ease-in-out;
+}
+.SectionBarreRechercheGen{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 3rem;
+    background-color: #d1d1d1;
+    box-shadow: 0px 2px 3px grey;
+}
+.BarreRechercheGen{
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 20% ;
+    height: 70%;
+    border-radius:20px;
+    box-shadow: 1px 2px 3px gray;
+}
+.BarreRechercheGen input{
+    position: absolute;
+    width: 85%;
+    height: 90%;
+    left: 3%;
+    border-radius: 5px;
+    border: 0px;
+}
+.BarreRechercheGen input:focus{
+    border: 2px solid black ;
+    outline: none
+}
+.BarreRechercheGenLoupe{
+    position: absolute;
+    right: 0%;
+    height: 100%;
+    border-radius: 50%;
+}
+.filtresbtn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: 30px;
+    right: 31%;
+    cursor: pointer;
+}
+.filtresbtn input{
+    display: none;
+}
+.filtresbtn img{
+    height: 30px;
 }
