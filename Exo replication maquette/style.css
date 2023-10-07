@@ -11,20 +11,11 @@ li a {
     display: block;
     text-align: center;
     padding: 14px 40px;
-<<<<<<< HEAD
-=======
-    /* width: 140px; */
->>>>>>> 09f48294b8eb613a16c9cd405d5ec920d6904276
     text-decoration: none;
 }
 li a:hover:not(.active) {
     background-color: #ccc;
 }
-<<<<<<< HEAD
-=======
-.active {
-}
->>>>>>> 09f48294b8eb613a16c9cd405d5ec920d6904276
 a{
     font-family: 'Roboto', sans-serif;
     color: #4d4d4d; 
@@ -39,11 +30,6 @@ nav{
     align-items: center;
     position: relative;
     background-color:#ececec;
-<<<<<<< HEAD
-=======
-    margin-top: 0%;
-    height: 50px;
->>>>>>> 09f48294b8eb613a16c9cd405d5ec920d6904276
 }
 .header{
     display: inline-flex;
@@ -54,11 +40,6 @@ nav{
     letter-spacing: 0.8px;
     font-size: 13px; 
     display: inline-flex;
-<<<<<<< HEAD
-=======
-    /* margin-left: 40px;
-    margin-right: 40px; */
->>>>>>> 09f48294b8eb613a16c9cd405d5ec920d6904276
 }
 body{
     margin: 0;
@@ -164,7 +145,6 @@ body{
     width: 220px;
     height: 196px;
 }
-<<<<<<< HEAD
 .cases:hover{
     background-color: #8da881;
 }
@@ -175,8 +155,6 @@ body{
 .cases:hover .smalllogo{
     transform: translateY(40px);
 }
-=======
->>>>>>> 09f48294b8eb613a16c9cd405d5ec920d6904276
 .smalllogo{
     display: flex;
     justify-content: center;
@@ -185,10 +163,7 @@ body{
     margin-top: -45px ;
     width: 52px;
     height: 52px;
-<<<<<<< HEAD
     transition: 0.4s ease-in-out;
-=======
->>>>>>> 09f48294b8eb613a16c9cd405d5ec920d6904276
 }
 .geo{
     height: 25px;
@@ -302,10 +277,6 @@ body{
     justify-content: space-evenly;
 }
 .imgsec4{
-<<<<<<< HEAD
-=======
-    /* display: flex; */
->>>>>>> 09f48294b8eb613a16c9cd405d5ec920d6904276
     overflow: hidden;
     flex-direction: column;
     background-color: #ffbc2c;
@@ -349,7 +320,6 @@ body{
     margin-top: 0px;
     margin-left: 13px;
     margin-bottom: 5px;
-<<<<<<< HEAD
 }
 footer{
     display: flex;
@@ -362,6 +332,4 @@ footer{
 }
 .copyright{
     color: #ececec;
-=======
->>>>>>> 09f48294b8eb613a16c9cd405d5ec920d6904276
 }
