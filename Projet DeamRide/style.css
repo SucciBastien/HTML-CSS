@@ -217,7 +217,15 @@ header{
     height: 65%;
     width: 55%;
 }
-.region:hover{
-    transform: scale(110%);
+.land{
+    fill: #f1faee;
+    fill-opacity: 1;
+    stroke: rgb(24, 23, 23);
+    stroke-opacity: 1;
+    stroke-width: 1;
+    transform-origin: center;
+}
+.land:hover{
+    transform: scale(103%);
     z-index: 10;
 }
