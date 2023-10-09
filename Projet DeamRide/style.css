@@ -5,7 +5,7 @@ header{
     display: flex;
     align-items: center;
     background-color:#e97000;
-    height: 10rem ;
+    height: 8rem ;
     overflow: hidden;
 }
 .logo{
@@ -102,26 +102,38 @@ header{
     border-radius: 50%;
 }
 .filtresbtn{
+    background-color: #ccc;
+    border-radius: 0.6rem;
     position: absolute;
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 5%;
+    justify-content: space-between;
+    width: min-content;
     height: 30px;
     right: 31%;
     cursor: pointer;
 }
-.filtresbtn input{
-    display: none;
+.filtresbtn span{
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    left: 0%;
+}
+.filtresbtn input::after p{
+    transform: scale(110%);
 }
 .filtresbtn img{
+    z-index: 1;
+    position: relative;
     height: 30px;
+
 }
 .articles{
-    width: 100rem;
-    height: 38rem;
-    margin-top: 4rem;
-    margin-left: 9.5rem ;
+    position: relative;
+    width: 90vw;
+    height: 45rem;
+    margin: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -138,7 +150,7 @@ header{
     align-items: center;
 }
 .articlesleft{
-    width: 30%;
+    width: 40%;
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -195,20 +207,24 @@ header{
     box-shadow: 1px 1px 3px 4px rgba(128, 128, 128, 0.747);
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    
 }
 .classesvehicules a{
     text-decoration: none;
+    margin: 3%;
     color: black;
     background-color: #bbbbbb;
-    width: 30%;
+    width: 20%;
     height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .classesvehicules a:hover{
     transform: scale(110%);
@@ -217,6 +233,9 @@ header{
     height: 65%;
     width: 55%;
 }
+.cartefrance svg{
+    overflow: visible;
+}
 .land{
     fill: #f1faee;
     fill-opacity: 1;
@@ -224,8 +243,36 @@ header{
     stroke-opacity: 1;
     stroke-width: 1;
     transform-origin: center;
+    overflow:inherit;
 }
-.land:hover{
-    transform: scale(103%);
-    z-index: 10;
+.land:hover {
+    transform: scale(102%);
+    stroke-width: 3px;
+}
+.carteSearchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    height: 5%;
+    width: 40%;
+    border-radius: 1rem;
+}
+.carteSearchBar input{
+    content: "Chercher par Ville ou Département";
+    position: absolute;
+    left: 2%;
+    border: none;
+    width: 85%;
+}
+.carteSearchBar input:focus{
+    border: 1px solid black;
+    outline: none;
+}
+.carteSearchBar img{
+    height: 100%;
+    border-radius: 50% ;
+    position: absolute;
+    right: 0px;
 }
