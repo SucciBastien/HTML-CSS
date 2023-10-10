@@ -62,7 +62,7 @@ body header button div {
 }
 body header button:hover {
   transform: scale(110%);
-  background-color: #a55000;
+  background-color: #ffffff88;
 }
 body nav {
   background-color: #e97000;
@@ -104,11 +104,16 @@ body .SectionBarreRecherche div input:focus {
   border: 2px solid black ;
   outline: none;
 }
-body .SectionBarreRecherche div img {
+body .SectionBarreRecherche div button {
   position: absolute;
   right: 0%;
+  width: 35px;
   height: 100%;
+  border: none;
   border-radius: 50%;
+  background-image: url(img/Loupe.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 body .SectionBarreRecherche button {
   background-color: #ccc;
@@ -265,9 +270,14 @@ body .section1 article:nth-of-type(2) div:nth-of-type(2) input:focus {
   border: 1px solid black;
   outline: none;
 }
-body .section1 article:nth-of-type(2) div:nth-of-type(2) img {
-  height: 100%;
-  border-radius: 50% ;
+body .section1 article:nth-of-type(2) div:nth-of-type(2) button {
   position: absolute;
-  right: 0px;
+  right: 0%;
+  width: 35px;
+  height: 100%;
+  border: none;
+  border-radius: 50%;
+  background-image: url(img/Loupe.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

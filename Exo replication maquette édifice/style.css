@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 45rem;
+  width: 100%;
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+}
+body header figure {
+  position: absolute;
+  transform: scale(120%);
+  left: 16%;
+  top: 9%;
+  width: 7.8rem;
+  height: 3.3rem;
+  background-image: url(img/logo_edifice.png);
+}
+body header nav {
+  position: absolute;
+  top: 0%;
+  right: 5%;
+}
+body header p {
+  color: white;
+}
+body header p:nth-of-type(1) {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  font-weight: 700;
+  width: 35rem;
+  font-size: 10rem ;
+  margin-bottom: 2%;
+}
+body header p:nth-of-type(2) {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-stretch: ;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: -2.8%;
+  margin-bottom: 3%;
+  width: 32rem;
+  white-space: nowrap;
+}
+body header button {
+  border: none;
+  width: 15rem;
+  height: 3.5rem;
+  background-color: #96A53C;
+  color: white;
+  font-weight: 600;
+}
