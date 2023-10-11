@@ -48,8 +48,6 @@ body header button {
   height: 50px;
   padding: 0px;
   cursor: pointer;
-  border: none;
-  text-align: center;
   background-color: #e97000;
   border-radius: 5px;
   transition: 0.2s ease-in-out;
