@@ -495,15 +495,18 @@ body footer p {
   }
   body .section1 {
     display: flex;
-    width: 100%;
+    width: 90%;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+  }
+  body .section1 div {
+    width: 60%;
   }
   body .section1 div:nth-of-type(1) {
     margin: 0px;
   }
   body .section1 div:nth-of-type(2) {
-    margin: 0px;
+    margin-left: 50px;
   }
   body .section2 {
     width: 100%;
