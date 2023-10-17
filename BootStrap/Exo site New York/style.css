@@ -1,0 +1,24 @@
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+#logo{
+    object-fit: cover;
+}
+.onelinedrawinglink{
+    font-size: 10px;
+    text-decoration: none;
+}
+div{
+    transition: 0.3s ease-in-out;
+}
+.advice:hover{
+    background-color: #FEE041;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    background-color: #FEE041;
+    color: black;
+}
