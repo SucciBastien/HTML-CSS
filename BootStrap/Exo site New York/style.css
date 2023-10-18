@@ -2,8 +2,12 @@ body{
     max-width: 1920px;
     margin: 0 auto;
 }
-#logo{
-    object-fit: cover;
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    background-color: #FEE041;
+    color: black;
 }
 .onelinedrawinglink{
     font-size: 10px;
@@ -15,10 +19,12 @@ div{
 .advice:hover{
     background-color: #FEE041;
 }
-.nav-link{
-    color: white;
+#les-transports{
+    transform: scale(70%)
 }
-.nav-link:hover{
-    background-color: #FEE041;
-    color: black;
+#passeport{
+    transform: scale(70%)
+}
+.hotel-photos{
+    margin-top: 150px;
 }
